@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/chat.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/typing.css">
+    <title>Chatbox</title>
+    <script src="jquery.rwdImageMaps.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="./images/image.png" alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">KrisJamBoard</h4>
+                        <p class="chatbox__description--header">Share your secrets of the city</p>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div>
+                        <div class="messages__item messages__item--visitor">
+                            Are there any affordable nice brunch places?
+                        </div>
+                        <div class="messages__item messages__item--operator">
+                            Sure!
+                        </div>
+                        <div class="messages__item messages__item--visitor">
+                            Where is it?
+                        </div>
+                        <div class="messages__item messages__item--operator">
+                            I left a post it on the JamBoard!
+                        </div>
+                        <div class="messages__item messages__item--typing">
+                            <span class="messages__dot"></span>
+                            <span class="messages__dot"></span>
+                            <span class="messages__dot"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="chatbox__footer">
+                    <img src="./images/icons/emojis.svg" alt="">
+                    <img src="./images/icons/microphone.svg" alt="">
+                    <input type="text" placeholder="Write a message...">
+                    <p class="chatbox__send--footer">Send</p>
+                    <img src="./images/icons/attachment.svg" alt="">
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button>button</button>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/Chat.js"></script>
+    <script src="./app.js"></script>
+
+    <img src="San_Francisco_Map_Full_2592x.svg" usemap="#image-map" class="responsive">
+
+<map name="image-map">
+    <area target="_blank" alt="Learn More" title="Learn More" href="https://www.goldengate.org/bridge/history-research/" coords="324,585,635,640" shape="rect">
+    <area target="_blank" alt="Learn More" title="Learn More" href="https://www.nps.gov/alca/index.htm" coords="1222,442,1520,502" shape="rect">
+    <area target="_blank" alt="Learn More" title="Learn More" href="https://fishermanswharf.org/" coords="1255,802,1571,863" shape="rect">
+    <area target="_blank" alt="Learn More" title="Learn More" href="https://www.sftravel.com/article/sf-icons-lombard-street" coords="1094,977,1365,1029" shape="rect">
+    <area target="_blank" alt="Learn More" title="Learn More" href="https://www.calacademy.org/" coords="250,1799,727,1848" shape="rect">
+    <area target="_blank" alt="Learn More" title="Learn More" href="http://www.sanfranciscochinatown.com/" coords="1633,940,1831,986" shape="rect">
+    <area target="_blank" alt="Learn More" title="Learn More" href="https://creativity.org/" coords="1478,1646,1882,1693" shape="rect">
+    <area target="_blank" alt="Learn More" title="Learn More" href="https://en.wikipedia.org/wiki/Painted_ladies" coords="1031,1661,1259,1705" shape="rect">
+    <area target="_blank" alt="Learn More" title="Learn More" href="http://www.cablecarmuseum.org/" coords="1326,1283,1593,1340" shape="rect">
+    <area target="_blank" alt="Learn More" title="Learn More" href="https://www.sfmoma.org/" coords="1842,1396,1990,1449" shape="rect">
+</map>
+
+<script>$('img[usemap]').rwdImageMaps();</script>
+</body>
+</html>
