@@ -1,11 +1,4 @@
-# Duplos (v4)
-
-> __Current status:__  
-This is the [live version](http://duplos.org).
-
-Duplos - Ricardo's Miscellany - was born in 2006, and this design is version 4.3 (2014).
-
-![Duplos (v4) screenshot](https://raw.githubusercontent.com/ricardomestre/duplos-v4/master/duplos-v4-screenshot.png)
+# KrisSphere ver1.0
 
 ## Development environment
 To set up the development environment for this website, you'll need to install the following on your system:
